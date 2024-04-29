@@ -1,21 +1,6 @@
-public class AlunoDePosGraduacao {
-    private String nome;
-    private int idade;
+public class AlunoDePosGraduacao extends Pessoa {
     private char conceito;
-
-    
-    public String getNome() {
-        return nome;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    public int getIdade() {
-        return idade;
-    }
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
+   
     public char getConceito() {
         return conceito;
     }
