@@ -5,7 +5,13 @@ public class Pessoa {
     public Pessoa (){
         System.out.println("Construindo uma pessoa.");
     }
-    
+
+    public Pessoa(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+        System.out.println("Construindo uma pessoa.");
+    }
+
     public String getNome() {
         return nome;
     }
