@@ -1,4 +1,4 @@
-public class AlunoDeGraduacao extends Pessoa {
+public class AlunoDeGraduacao extends Aluno {
     private double nota1, nota2, notaFinal;
 
     public double getNota1() {
@@ -20,7 +20,7 @@ public class AlunoDeGraduacao extends Pessoa {
     public double getNotaFinal() {
         return notaFinal;
     }
-    
+
     public void setNotaFinal(double notaFinal) {
         this.notaFinal = notaFinal;
     }

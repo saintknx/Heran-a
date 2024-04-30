@@ -1,4 +1,4 @@
-public class AlunoDePosGraduacao extends Pessoa {
+public class AlunoDePosGraduacao extends Aluno {
     private char conceito;
    
     public char getConceito() {
